@@ -8,21 +8,16 @@ export const StructuredData: React.FC = () => {
     "name": DOCTOR_PROFILE.name,
     "image": DOCTOR_PROFILE.heroImage,
     "telephone": DOCTOR_PROFILE.phone,
-    "description": "Experienced Child Healthcare Medical Practitioner in Adda Gamber and Okara with 20+ years of medical practice.",
+    "description": "Experienced Child Healthcare Medical Practitioner at AI Shifa Children and Maternity Home, Okara, Pakistan with 20+ years of medical practice.",
     "medicalSpecialty": "Pediatric Care",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Adda Gamber",
-      "addressLocality": "Gamber",
+      "streetAddress": "AI Shifa Children and Maternity Home",
+      "addressLocality": "Okara",
       "addressRegion": "Punjab",
       "addressCountry": "PK"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "30.8080",
-      "longitude": "73.4500"
-    },
-    "url": "https://maps.app.goo.gl/qPjQFkpWgSwdZLab7",
+    "url": DOCTOR_PROFILE.googleMapsUrl,
     "priceRange": "$$",
     "openingHours": "Mo-Sa 10:00-20:00"
   };

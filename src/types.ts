@@ -1,5 +1,6 @@
 export interface DoctorProfile {
   name: string;
+  nameUrdu?: string;
   title: string;
   experienceYears: number;
   location: string;

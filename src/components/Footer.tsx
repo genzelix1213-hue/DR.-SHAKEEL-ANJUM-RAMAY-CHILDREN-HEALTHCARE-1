@@ -34,7 +34,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAppointment, onOpenAdmin }
               <span className="text-lg font-extrabold text-white">{DOCTOR_PROFILE.name}</span>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed font-normal">
-              Experienced Child Healthcare in Gamber & Okara
+              Experienced Child Healthcare in Okara, Pakistan
             </p>
             <p className="text-xs text-slate-400 leading-relaxed">
               MD (Medicine), MBBS, RMP, D.A. (PGMI), Diploma in Child Health. Over 20 years of dedicated medical experience treating children's illnesses.
@@ -86,7 +86,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAppointment, onOpenAdmin }
               </li>
               <li className="flex items-start space-x-2.5">
                 <MapPin className="w-4 h-4 text-teal-500 shrink-0 mt-0.5" />
-                <span>Adda Gamber, Punjab, Pakistan</span>
+                <span>AI Shifa Children and Maternity Home, Okara, Pakistan</span>
               </li>
             </ul>
           </div>
@@ -95,7 +95,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAppointment, onOpenAdmin }
           <div className="space-y-4">
             <h4 className="text-xs font-bold uppercase tracking-wider text-teal-400">Book Appointment</h4>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Request a medical consultation slot for your child at our Adda Gamber clinic.
+              Request a medical consultation slot for your child at AI Shifa Children and Maternity Home, Okara.
             </p>
             <button
               onClick={onOpenAppointment}

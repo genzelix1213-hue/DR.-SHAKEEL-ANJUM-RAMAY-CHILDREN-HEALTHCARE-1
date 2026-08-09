@@ -41,7 +41,7 @@ export const TrustSection: React.FC = () => {
             20+ Years of Experience in Child Healthcare
           </h2>
           <p className="text-sm sm:text-base text-slate-600 font-medium">
-            Serving families in Gamber and Okara for more than two decades.
+            Serving families in Okara and surrounding areas for more than two decades.
           </p>
         </div>
 

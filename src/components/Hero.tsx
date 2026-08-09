@@ -34,14 +34,21 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAppointment }) => {
 
             {/* SUPPORTING TEXT */}
             <p className="text-base sm:text-lg text-slate-700 leading-relaxed max-w-2xl font-normal">
-              Experienced healthcare for children, with compassionate guidance for parents and families in Gamber and Okara.
+              Experienced healthcare for children, with compassionate guidance for parents and families in Okara, Pakistan.
             </p>
 
             {/* DOCTOR CREDENTIALS CARD IN HERO */}
             <div className="p-4 rounded-xl bg-white/90 border border-slate-200/80 shadow-sm backdrop-blur-sm space-y-2 max-w-xl">
-              <div className="flex items-center space-x-2">
-                <HeartPulse className="w-5 h-5 text-teal-600 shrink-0" />
-                <span className="font-bold text-slate-900 text-lg">{DOCTOR_PROFILE.name}</span>
+              <div className="flex items-center justify-between flex-wrap gap-2">
+                <div className="flex items-center space-x-2">
+                  <HeartPulse className="w-5 h-5 text-teal-600 shrink-0" />
+                  <span className="font-bold text-slate-900 text-lg">{DOCTOR_PROFILE.name}</span>
+                </div>
+                {DOCTOR_PROFILE.nameUrdu && (
+                  <span className="text-sm font-semibold text-teal-800 bg-teal-50 px-2.5 py-0.5 rounded-md border border-teal-200/60" dir="rtl">
+                    {DOCTOR_PROFILE.nameUrdu}
+                  </span>
+                )}
               </div>
               <div className="flex flex-wrap gap-1.5 pt-1">
                 {DOCTOR_PROFILE.credentials.map((cred, i) => (
@@ -85,7 +92,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAppointment }) => {
             <div className="pt-4 flex flex-wrap items-center gap-6 text-xs text-slate-600 font-medium">
               <div className="flex items-center space-x-1.5">
                 <ShieldCheck className="w-4 h-4 text-teal-600" />
-                <span>Only Location: Adda Gamber</span>
+                <span>AI Shifa Children & Maternity Home, Okara</span>
               </div>
               <div className="flex items-center space-x-1.5">
                 <ShieldCheck className="w-4 h-4 text-teal-600" />
@@ -110,8 +117,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAppointment }) => {
               <div className="relative bg-white p-2.5 rounded-3xl shadow-xl border border-slate-200/90 overflow-hidden">
                 <img
                   src={DOCTOR_PROFILE.heroImage}
-                  alt="Dr. Shakeel Anjum Ramay - Experienced Child Healthcare Doctor in Adda Gamber"
-                  className="w-full h-auto object-cover rounded-2xl max-h-[500px] lg:max-h-[560px] shadow-sm"
+                  alt="Dr. Shakeel Anjum Ramay - Experienced Child Healthcare Doctor in Okara"
+                  className="w-full h-auto object-contain rounded-2xl max-h-[500px] lg:max-h-[560px] shadow-sm mx-auto"
                   loading="eager"
                   width="600"
                   height="700"
@@ -124,7 +131,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAppointment }) => {
                   </div>
                   <div>
                     <div className="text-xs font-bold text-slate-900">Dr. Shakeel Anjum Ramay</div>
-                    <div className="text-[11px] font-medium text-slate-600">Child Healthcare Specialist in Gamber & Okara</div>
+                    <div className="text-[11px] font-medium text-slate-600">AI Shifa Children & Maternity Home, Okara</div>
                   </div>
                 </div>
 

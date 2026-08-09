@@ -6,7 +6,7 @@ export const WhyChooseUs: React.FC = () => {
   const reasons = [
     {
       title: '20+ Years Experience',
-      desc: "Two decades of hands-on medical experience diagnosing and managing children's health conditions in Gamber and Okara.",
+      desc: "Two decades of hands-on medical experience diagnosing and managing children's health conditions in Okara.",
       icon: Award
     },
     {
@@ -35,8 +35,8 @@ export const WhyChooseUs: React.FC = () => {
       icon: PhoneCall
     },
     {
-      title: 'Convenient Adda Gamber Location',
-      desc: 'Accessible clinic location at Adda Gamber with direct Google Maps navigation.',
+      title: 'Convenient Okara Location',
+      desc: 'Accessible clinic location at AI Shifa Children and Maternity Home, Okara with direct Google Maps navigation.',
       icon: MapPin
     }
   ];
@@ -57,7 +57,7 @@ export const WhyChooseUs: React.FC = () => {
             Why Families Choose Experienced Care
           </h2>
           <p className="text-base text-slate-600">
-            Providing reliable child healthcare, clinical excellence, and family-centered consultation in Adda Gamber.
+            Providing reliable child healthcare, clinical excellence, and family-centered consultation in Okara.
           </p>
         </div>
 

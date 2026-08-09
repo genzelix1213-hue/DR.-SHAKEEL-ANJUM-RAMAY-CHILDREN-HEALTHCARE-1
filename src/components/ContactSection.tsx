@@ -32,7 +32,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenAppointmen
             Contact Dr. Shakeel Anjum Ramay
           </h2>
           <p className="text-sm text-slate-600">
-            Reach out directly for clinic inquiries, appointment availability, or directions to Adda Gamber.
+            Reach out directly for clinic inquiries, appointment availability, or directions to AI Shifa Children and Maternity Home, Okara.
           </p>
         </div>
 
@@ -48,7 +48,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenAppointmen
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-slate-900">{DOCTOR_PROFILE.name}</h3>
-                  <p className="text-xs text-slate-600 font-medium">Child Healthcare Practitioner • Adda Gamber</p>
+                  <p className="text-xs text-slate-600 font-medium">Child Healthcare Practitioner • Okara, Pakistan</p>
                 </div>
               </div>
 
@@ -77,7 +77,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenAppointmen
                   <MapPin className="w-4 h-4 text-teal-600 shrink-0" />
                   <div>
                     <span className="text-slate-500 font-medium block">Clinic Location</span>
-                    <span className="font-bold text-slate-900 text-sm">Adda Gamber, Punjab, Pakistan</span>
+                    <span className="font-bold text-slate-900 text-sm">AI Shifa Children and Maternity Home, Okara, Pakistan</span>
                   </div>
                 </div>
               </div>

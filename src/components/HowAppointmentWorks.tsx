@@ -6,7 +6,7 @@ export const HowAppointmentWorks: React.FC = () => {
     {
       num: '01',
       title: 'Choose Your Date & Time',
-      desc: 'Select your preferred appointment date, day of the week, and suitable time slot for your visit to the Adda Gamber clinic.',
+      desc: 'Select your preferred appointment date, day of the week, and suitable time slot for your visit to AI Shifa Children and Maternity Home, Okara.',
       icon: Calendar
     },
     {

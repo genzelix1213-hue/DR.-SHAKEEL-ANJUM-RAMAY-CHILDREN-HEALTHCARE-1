@@ -22,7 +22,7 @@ export const FaqSection: React.FC = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-sm text-slate-600 max-w-xl mx-auto">
-            Find quick answers about Dr. Shakeel Anjum Ramay's practice, clinic location in Adda Gamber, and appointment procedures.
+            Find quick answers about Dr. Shakeel Anjum Ramay's practice, clinic location at AI Shifa Children and Maternity Home in Okara, and appointment procedures.
           </p>
         </div>
 

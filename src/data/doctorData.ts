@@ -2,10 +2,11 @@ import { DoctorProfile, MedicalService, VideoItem, ImageItem, FaqItem, Testimoni
 
 export const DOCTOR_PROFILE: DoctorProfile = {
   name: 'Dr. Shakeel Anjum Ramay',
+  nameUrdu: 'ڈاکٹر شکیل انجم رامے',
   title: 'Experienced Child Healthcare Practitioner',
   experienceYears: 20,
-  location: 'Adda Gamber',
-  experienceSummary: "20+ Years of Experience in Treating Children's Diseases in Gamber and Okara",
+  location: 'AI Shifa Children and Maternity Home, Okara',
+  experienceSummary: "20+ Years of Experience in Treating Children's Diseases in Okara",
   credentials: [
     'MD (Medicine)',
     'MBBS',
@@ -22,16 +23,24 @@ export const DOCTOR_PROFILE: DoctorProfile = {
   whatsapp: '+92 344 3335333',
   callUrl: 'tel:+923443335333',
   whatsappUrl: 'https://wa.me/923443335333?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Shakeel%20Anjum%20Ramay.',
-  googleMapsUrl: 'https://maps.app.goo.gl/qPjQFkpWgSwdZLab7',
-  heroImage: 'https://i.ibb.co/RkYq5Ytx/Whats-App-Image-2026-08-09-at-8-21-20-AM.jpg'
+  googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=AI+Shifa+Children+and+Maternity+Home%2C+Okara%2C+Pakistan&utm_source=chatgpt.com',
+  heroImage: 'https://i.ibb.co/5WBTR0WZ/Chat-GPT-Image-Aug-9-2026-10-20-07-PM.png'
 };
 
 export const CLINIC_IMAGES: ImageItem[] = [
   {
     id: 'hero',
-    pageUrl: 'https://ibb.co/nN6FW64H',
-    directUrl: 'https://i.ibb.co/RkYq5Ytx/Whats-App-Image-2026-08-09-at-8-21-20-AM.jpg',
+    pageUrl: 'https://ibb.co/Y7p2LC7g',
+    directUrl: 'https://i.ibb.co/5WBTR0WZ/Chat-GPT-Image-Aug-9-2026-10-20-07-PM.png',
     alt: 'Dr. Shakeel Anjum Ramay - Experienced Child Healthcare Practitioner',
+    title: 'Dr. Shakeel Anjum Ramay',
+    category: 'about'
+  },
+  {
+    id: 'second_doctor_img',
+    pageUrl: 'https://ibb.co/dwHwfbSX',
+    directUrl: 'https://i.ibb.co/ZpbpfH3v/Whats-App-Image-2026-08-09-at-10-08-54-PM.jpg',
+    alt: 'Dr. Shakeel Anjum Ramay - AI Shifa Children and Maternity Home, Okara',
     title: 'Dr. Shakeel Anjum Ramay',
     category: 'about'
   },
@@ -47,7 +56,7 @@ export const CLINIC_IMAGES: ImageItem[] = [
     id: 'img2',
     pageUrl: 'https://ibb.co/GQKqcqf4',
     directUrl: 'https://i.ibb.co/N28MZMgd/Whats-App-Image-2026-08-09-at-8-18-19-AM.jpg',
-    alt: 'Doctor Examining Child Patient in Adda Gamber Clinic',
+    alt: 'Doctor Examining Child Patient in Okara Clinic',
     title: 'Patient Examination & Diagnosis',
     category: 'care'
   },
@@ -71,8 +80,8 @@ export const CLINIC_IMAGES: ImageItem[] = [
     id: 'img5',
     pageUrl: 'https://ibb.co/gMTyTsQF',
     directUrl: 'https://i.ibb.co/1fqZqHBJ/Whats-App-Image-2026-08-09-at-8-19-04-AM.jpg',
-    alt: 'Adda Gamber Clinic Patient Reception & Consultation Area',
-    title: 'Adda Gamber Clinic Environment',
+    alt: 'AI Shifa Children & Maternity Home Patient Reception & Consultation Area',
+    title: 'Clinic Consultation Environment',
     category: 'clinic'
   },
   {
@@ -87,7 +96,7 @@ export const CLINIC_IMAGES: ImageItem[] = [
     id: 'img7',
     pageUrl: 'https://ibb.co/NgjLHsp6',
     directUrl: 'https://i.ibb.co/xKjMRDGS/Whats-App-Image-2026-08-09-at-8-19-33-AM.jpg',
-    alt: 'Child Healthcare Assessment at Adda Gamber',
+    alt: 'Child Healthcare Assessment at AI Shifa Children & Maternity Home',
     title: 'Pediatric Health Checkup',
     category: 'service'
   },
@@ -103,7 +112,7 @@ export const CLINIC_IMAGES: ImageItem[] = [
     id: 'img9',
     pageUrl: 'https://ibb.co/Z1cPm5Wy',
     directUrl: 'https://i.ibb.co/CsVZ2ghx/Whats-App-Image-2026-08-09-at-8-20-25-AM.jpg',
-    alt: 'Adda Gamber Clinic Facility & Equipment',
+    alt: 'AI Shifa Children & Maternity Home Facility & Equipment',
     title: 'Modern Clinic Facilities',
     category: 'clinic'
   },
@@ -122,7 +131,7 @@ export const CLINIC_VIDEOS: VideoItem[] = [
     id: 'vid1',
     streamableId: 'v9uwmn',
     title: 'Welcome Message & Doctor Introduction',
-    description: 'Dr. Shakeel Anjum Ramay introduces his child healthcare practice in Adda Gamber, highlighting over 20 years of dedicated experience.',
+    description: 'Dr. Shakeel Anjum Ramay introduces his child healthcare practice at AI Shifa Children and Maternity Home in Okara, highlighting over 20 years of dedicated experience.',
     embedUrl: 'https://streamable.com/e/v9uwmn',
     pageUrl: 'https://streamable.com/v9uwmn',
     thumbnailUrl: 'https://cdn-cf-east.streamable.com/image/v9uwmn.jpg',
@@ -133,7 +142,7 @@ export const CLINIC_VIDEOS: VideoItem[] = [
     id: 'vid2',
     streamableId: '5s7c56',
     title: 'Comprehensive Child Health Assessment',
-    description: 'An overview of routine pediatric health checks, fever evaluation, and childhood illness monitoring at Adda Gamber clinic.',
+    description: 'An overview of routine pediatric health checks, fever evaluation, and childhood illness monitoring at AI Shifa Children and Maternity Home, Okara.',
     embedUrl: 'https://streamable.com/e/5s7c56',
     pageUrl: 'https://streamable.com/5s7c56',
     thumbnailUrl: 'https://cdn-cf-east.streamable.com/image/5s7c56.jpg',
@@ -142,7 +151,7 @@ export const CLINIC_VIDEOS: VideoItem[] = [
   {
     id: 'vid3',
     streamableId: 'cg5zed',
-    title: 'Adda Gamber Clinic Atmosphere & Patient Comfort',
+    title: 'AI Shifa Children & Maternity Home Atmosphere',
     description: 'A walkthrough showing the welcoming, clean, and child-friendly clinical environment designed for young patients and their families.',
     embedUrl: 'https://streamable.com/e/cg5zed',
     pageUrl: 'https://streamable.com/cg5zed',
@@ -275,7 +284,7 @@ export const FAQ_LIST: FaqItem[] = [
   {
     id: 'faq-2',
     question: 'How many years of experience does the doctor have?',
-    answer: "Dr. Shakeel Anjum Ramay has over 20 years of hands-on medical experience in diagnosing and treating children's diseases across Gamber and Okara."
+    answer: "Dr. Shakeel Anjum Ramay has over 20 years of hands-on medical experience in diagnosing and treating children's diseases at AI Shifa Children and Maternity Home in Okara, Pakistan."
   },
   {
     id: 'faq-3',
@@ -285,7 +294,7 @@ export const FAQ_LIST: FaqItem[] = [
   {
     id: 'faq-4',
     question: 'Where is the clinic located?',
-    answer: 'The clinic is conveniently located at Adda Gamber, Punjab. You can get exact directions via Google Maps using the "Get Directions" link on this website.'
+    answer: 'The clinic is located at AI Shifa Children and Maternity Home, Okara, Pakistan. You can get exact directions via Google Maps using the "Get Directions" link on this website.'
   },
   {
     id: 'faq-5',
@@ -309,8 +318,8 @@ export const FAQ_LIST: FaqItem[] = [
   },
   {
     id: 'faq-9',
-    question: 'How can I get directions to Adda Gamber?',
-    answer: 'Click the "Get Directions" button on our location section or footer to open Google Maps directly navigated to our Adda Gamber clinic location.'
+    question: 'How can I get directions to AI Shifa Children and Maternity Home?',
+    answer: 'Click the "Get Directions" button on our location section or footer to open Google Maps directly navigated to AI Shifa Children and Maternity Home, Okara, Pakistan.'
   }
 ];
 

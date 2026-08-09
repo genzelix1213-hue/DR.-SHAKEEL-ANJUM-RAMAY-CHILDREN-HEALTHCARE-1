@@ -95,7 +95,7 @@ export const AppointmentSection: React.FC<AppointmentSectionProps> = ({ initialS
       message: message.trim(),
       status: 'Pending',
       createdAt: new Date().toISOString(),
-      location: 'Adda Gamber'
+      location: 'AI Shifa Children and Maternity Home, Okara'
     };
 
     // Save to local storage for Admin view
@@ -133,13 +133,13 @@ export const AppointmentSection: React.FC<AppointmentSectionProps> = ({ initialS
         {/* HEADER */}
         <div className="text-center mb-10 space-y-2">
           <span className="text-xs font-bold uppercase tracking-wider text-teal-700 bg-teal-100/80 px-3.5 py-1 rounded-full border border-teal-200">
-            Adda Gamber Clinic
+            AI Shifa Children & Maternity Home, Okara
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
             Book an Appointment
           </h2>
           <p className="text-sm text-slate-600 max-w-xl mx-auto">
-            Schedule a medical consultation for your child with Dr. Shakeel Anjum Ramay at Adda Gamber.
+            Schedule a medical consultation for your child with Dr. Shakeel Anjum Ramay at AI Shifa Children and Maternity Home, Okara.
           </p>
         </div>
 
@@ -388,7 +388,7 @@ export const AppointmentSection: React.FC<AppointmentSectionProps> = ({ initialS
                   <div className="p-3 bg-teal-50 border border-teal-200 rounded-xl flex items-center justify-between text-xs font-bold text-teal-900">
                     <span className="flex items-center space-x-2">
                       <MapPin className="w-4 h-4 text-teal-700" />
-                      <span>Adda Gamber Clinic</span>
+                      <span>AI Shifa Children & Maternity Home, Okara</span>
                     </span>
                     <span className="text-teal-700 text-[11px] font-semibold">Primary Practice Location</span>
                   </div>
@@ -457,7 +457,7 @@ export const AppointmentSection: React.FC<AppointmentSectionProps> = ({ initialS
                   )}
                   <div className="sm:col-span-2 pt-2 border-t border-slate-100">
                     <span className="text-slate-500 font-medium block">Clinic Location:</span>
-                    <span className="text-slate-900 font-bold">Adda Gamber Clinic</span>
+                    <span className="text-slate-900 font-bold">AI Shifa Children and Maternity Home, Okara, Pakistan</span>
                   </div>
                 </div>
               </div>
@@ -544,7 +544,7 @@ export const AppointmentSection: React.FC<AppointmentSectionProps> = ({ initialS
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-500 font-medium">Location:</span>
-                  <span className="font-bold text-slate-900">Adda Gamber Clinic</span>
+                  <span className="font-bold text-slate-900">AI Shifa Children & Maternity Home, Okara</span>
                 </div>
               </div>
 

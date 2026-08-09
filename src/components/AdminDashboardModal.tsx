@@ -99,7 +99,7 @@ export const AdminDashboardModal: React.FC<AdminDashboardModalProps> = ({ isOpen
             </div>
             <div>
               <h2 className="text-base font-bold">Clinic Staff Portal — Appointment Management</h2>
-              <p className="text-xs text-slate-400">Dr. Shakeel Anjum Ramay Clinic (Adda Gamber)</p>
+              <p className="text-xs text-slate-400">Dr. Shakeel Anjum Ramay (AI Shifa Children & Maternity Home, Okara)</p>
             </div>
           </div>
           <button
@@ -340,7 +340,7 @@ export const AdminDashboardModal: React.FC<AdminDashboardModalProps> = ({ isOpen
                   )}
                   <div>
                     <span className="text-slate-500 block font-medium">Location:</span>
-                    <span className="font-bold text-slate-900">Adda Gamber Clinic</span>
+                    <span className="font-bold text-slate-900">AI Shifa Children and Maternity Home, Okara</span>
                   </div>
                 </div>
 

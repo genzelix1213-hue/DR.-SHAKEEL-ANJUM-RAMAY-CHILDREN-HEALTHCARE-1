@@ -18,7 +18,7 @@ export const LocationSection: React.FC = () => {
             Visit Our Clinic
           </h2>
           <p className="text-sm text-slate-600">
-            Conveniently situated at Adda Gamber, providing easy access for families across Gamber and Okara.
+            Conveniently situated at AI Shifa Children and Maternity Home, providing easy access for families in Okara, Pakistan.
           </p>
         </div>
 
@@ -31,8 +31,8 @@ export const LocationSection: React.FC = () => {
                 <MapPin className="w-6 h-6" />
               </div>
               <div>
-                <h3 className="text-xl font-extrabold text-slate-900">Adda Gamber Clinic</h3>
-                <p className="text-xs text-teal-700 font-bold uppercase tracking-wide">Single Official Clinic Location</p>
+                <h3 className="text-xl font-extrabold text-slate-900">AI Shifa Children and Maternity Home</h3>
+                <p className="text-xs text-teal-700 font-bold uppercase tracking-wide">Okara, Pakistan</p>
               </div>
             </div>
 
@@ -41,7 +41,7 @@ export const LocationSection: React.FC = () => {
                 <MapPin className="w-4 h-4 text-teal-600 shrink-0 mt-0.5" />
                 <div>
                   <span className="font-bold text-slate-900 block">Address</span>
-                  <span>Adda Gamber, Punjab, Pakistan</span>
+                  <span>AI Shifa Children and Maternity Home, Okara, Pakistan</span>
                 </div>
               </div>
 
@@ -82,8 +82,8 @@ export const LocationSection: React.FC = () => {
             <div className="relative h-72 sm:h-auto min-h-[280px] rounded-3xl overflow-hidden border border-slate-200 shadow-md bg-slate-100 flex flex-col justify-between p-6">
               <div className="relative z-10 bg-white/90 backdrop-blur-md p-4 rounded-2xl border border-slate-200 shadow-sm space-y-1">
                 <span className="text-[10px] uppercase font-extrabold tracking-wider text-teal-700">Google Maps Direct Link</span>
-                <h4 className="text-sm font-bold text-slate-900">Adda Gamber Location</h4>
-                <p className="text-xs text-slate-600">Click below to launch turn-by-turn navigation on your mobile or desktop map.</p>
+                <h4 className="text-sm font-bold text-slate-900">AI Shifa Children & Maternity Home</h4>
+                <p className="text-xs text-slate-600">Click below to launch turn-by-turn navigation to AI Shifa Children and Maternity Home, Okara on Google Maps.</p>
               </div>
 
               <div className="relative z-10 pt-4">
@@ -94,7 +94,7 @@ export const LocationSection: React.FC = () => {
                   className="inline-flex items-center space-x-2 px-4 py-2 bg-slate-900 text-white text-xs font-bold rounded-xl shadow-md hover:bg-slate-800"
                 >
                   <Navigation className="w-3.5 h-3.5 text-teal-400" />
-                  <span>Open Adda Gamber Map</span>
+                  <span>View on Google Maps</span>
                 </a>
               </div>
             </div>

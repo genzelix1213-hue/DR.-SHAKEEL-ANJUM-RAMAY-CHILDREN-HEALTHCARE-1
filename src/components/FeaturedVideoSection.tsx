@@ -31,7 +31,7 @@ export const FeaturedVideoSection: React.FC<FeaturedVideoSectionProps> = ({ onSe
             </h2>
 
             <p className="text-slate-300 text-sm sm:text-base leading-relaxed font-normal">
-              Watch Dr. Shakeel Anjum Ramay explain his philosophy on compassionate child healthcare, early diagnosis, and parent partnership in Adda Gamber.
+              Watch Dr. Shakeel Anjum Ramay explain his philosophy on compassionate child healthcare, early diagnosis, and parent partnership in Okara, Pakistan.
             </p>
 
             <div className="space-y-2 pt-2">
@@ -45,7 +45,7 @@ export const FeaturedVideoSection: React.FC<FeaturedVideoSectionProps> = ({ onSe
               </div>
               <div className="flex items-center space-x-2.5 text-xs text-slate-300 font-medium">
                 <CheckCircle className="w-4 h-4 text-teal-400 shrink-0" />
-                <span>Adda Gamber Clinic Consultation</span>
+                <span>AI Shifa Children & Maternity Home, Okara</span>
               </div>
             </div>
 

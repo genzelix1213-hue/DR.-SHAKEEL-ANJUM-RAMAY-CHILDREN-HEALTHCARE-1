@@ -7,37 +7,57 @@ interface AboutDoctorProps {
 }
 
 export const AboutDoctor: React.FC<AboutDoctorProps> = ({ onOpenAppointment }) => {
-  const aboutImage = CLINIC_IMAGES.find(img => img.id === 'img6') || CLINIC_IMAGES[0];
+  const primaryImage = CLINIC_IMAGES.find(img => img.id === 'second_doctor_img') || CLINIC_IMAGES[1];
+  const secondaryImage = CLINIC_IMAGES.find(img => img.id === 'img6') || CLINIC_IMAGES[0];
 
   return (
     <section id="about" className="py-16 sm:py-20 bg-slate-50/50 border-b border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
-          {/* LEFT: IMAGE & BADGE */}
-          <div className="lg:col-span-5 relative">
-            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-white p-2">
-              <img
-                src={aboutImage.directUrl}
-                alt={aboutImage.alt}
-                className="w-full h-auto object-cover rounded-2xl max-h-[480px]"
-                loading="lazy"
-                width="500"
-                height="600"
-              />
-              <div className="absolute top-6 right-6 bg-slate-900/90 text-white text-xs font-bold px-3 py-1.5 rounded-full backdrop-blur-md shadow-md">
-                Adda Gamber Clinic
+          {/* LEFT: IMAGE GALLERY & BADGE */}
+          <div className="lg:col-span-5 relative space-y-4">
+            
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {/* Primary Profile Image */}
+              <div className="relative rounded-2xl overflow-hidden shadow-lg border border-slate-200/90 bg-white p-1.5 group">
+                <img
+                  src={primaryImage.directUrl}
+                  alt={primaryImage.alt}
+                  className="w-full h-64 sm:h-72 object-cover rounded-xl group-hover:scale-102 transition-transform duration-500"
+                  loading="lazy"
+                  width="400"
+                  height="500"
+                />
+                <div className="absolute top-3 left-3 bg-teal-800/90 text-white text-[10px] font-bold px-2.5 py-1 rounded-full backdrop-blur-xs shadow-xs">
+                  Dr. Shakeel Anjum Ramay
+                </div>
+              </div>
+
+              {/* Secondary Consultation Image */}
+              <div className="relative rounded-2xl overflow-hidden shadow-lg border border-slate-200/90 bg-white p-1.5 group">
+                <img
+                  src={secondaryImage.directUrl}
+                  alt={secondaryImage.alt}
+                  className="w-full h-64 sm:h-72 object-cover rounded-xl group-hover:scale-102 transition-transform duration-500"
+                  loading="lazy"
+                  width="400"
+                  height="500"
+                />
+                <div className="absolute top-3 left-3 bg-slate-900/90 text-white text-[10px] font-bold px-2.5 py-1 rounded-full backdrop-blur-xs shadow-xs">
+                  Pediatric Care
+                </div>
               </div>
             </div>
 
             {/* Experience Card Overlay */}
-            <div className="mt-4 p-4 rounded-2xl bg-teal-800 text-white shadow-lg flex items-center space-x-4">
+            <div className="p-4 rounded-2xl bg-teal-800 text-white shadow-lg flex items-center space-x-4">
               <div className="w-12 h-12 rounded-xl bg-teal-700 flex items-center justify-center shrink-0">
                 <Award className="w-6 h-6 text-teal-200" />
               </div>
               <div>
                 <div className="text-lg font-bold">20+ Years Medical Practice</div>
-                <div className="text-xs text-teal-100">Trusted Child Care in Gamber & Okara</div>
+                <div className="text-xs text-teal-100">AI Shifa Children & Maternity Home, Okara</div>
               </div>
             </div>
           </div>
@@ -49,13 +69,20 @@ export const AboutDoctor: React.FC<AboutDoctorProps> = ({ onOpenAppointment }) =
               <span className="text-xs font-bold uppercase tracking-wider text-teal-700 bg-teal-100/80 px-3 py-1 rounded-full border border-teal-200">
                 About The Practitioner
               </span>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 tracking-tight">
-                Meet Dr. Shakeel Anjum Ramay
-              </h2>
+              <div className="flex flex-wrap items-baseline gap-3 mt-3">
+                <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+                  Meet Dr. Shakeel Anjum Ramay
+                </h2>
+                {DOCTOR_PROFILE.nameUrdu && (
+                  <span className="text-xl font-bold text-teal-800" dir="rtl">
+                    ({DOCTOR_PROFILE.nameUrdu})
+                  </span>
+                )}
+              </div>
             </div>
 
             <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-normal">
-              Dr. Shakeel Anjum Ramay is an experienced medical practitioner providing child healthcare services to families in Gamber and Okara. With more than 20 years of experience in treating children's diseases, his approach focuses on professional assessment, thoughtful medical guidance and compassionate care for children and their families.
+              Dr. Shakeel Anjum Ramay is an experienced medical practitioner providing child healthcare services to families at AI Shifa Children and Maternity Home in Okara, Pakistan. With more than 20 years of experience in treating children's diseases, his approach focuses on professional assessment, thoughtful medical guidance and compassionate care for children and their families.
             </p>
 
             {/* CREDENTIALS */}
