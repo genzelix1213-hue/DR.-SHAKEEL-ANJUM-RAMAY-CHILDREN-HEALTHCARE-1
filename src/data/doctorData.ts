@@ -24,14 +24,14 @@ export const DOCTOR_PROFILE: DoctorProfile = {
   callUrl: 'tel:+923443335333',
   whatsappUrl: 'https://wa.me/923443335333?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Shakeel%20Anjum%20Ramay.',
   googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=Al+Shifa+Children+and+Maternity+Home%2C+Gamber%2C+Pakistan&utm_source=chatgpt.com',
-  heroImage: 'https://i.ibb.co/HLTg7YY6/Whats-App-Image-2026-08-10-at-7-40-21-AM.jpg'
+  heroImage: 'https://i.ibb.co/Fkp4CNhp/Whats-App-Image-2026-08-10-at-9-22-02-AM.jpg'
 };
 
 export const CLINIC_IMAGES: ImageItem[] = [
   {
     id: 'hero',
-    pageUrl: 'https://ibb.co/kV2cK00j',
-    directUrl: 'https://i.ibb.co/HLTg7YY6/Whats-App-Image-2026-08-10-at-7-40-21-AM.jpg',
+    pageUrl: 'https://ibb.co/qL6YVXD6',
+    directUrl: 'https://i.ibb.co/Fkp4CNhp/Whats-App-Image-2026-08-10-at-9-22-02-AM.jpg',
     alt: 'Dr. Shakeel Anjum Ramay - Experienced Child Healthcare Practitioner',
     title: 'Dr. Shakeel Anjum Ramay',
     category: 'about'
@@ -83,14 +83,6 @@ export const CLINIC_IMAGES: ImageItem[] = [
     alt: 'AI Shifa Children & Maternity Home Patient Reception & Consultation Area',
     title: 'Clinic Consultation Environment',
     category: 'clinic'
-  },
-  {
-    id: 'img6',
-    pageUrl: 'https://ibb.co/Kj7DYDGr',
-    directUrl: 'https://i.ibb.co/Lz6rMrPZ/Whats-App-Image-2026-08-09-at-8-19-20-AM.jpg',
-    alt: 'Dr. Shakeel Anjum Ramay Advising Parents',
-    title: 'Parental Guidance & Consultation',
-    category: 'about'
   },
   {
     id: 'img7',

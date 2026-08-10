@@ -10,7 +10,6 @@ interface AboutDoctorProps {
 
 export const AboutDoctor: React.FC<AboutDoctorProps> = ({ onOpenAppointment, onSelectVideo }) => {
   const primaryImage = CLINIC_IMAGES.find(img => img.id === 'second_doctor_img') || CLINIC_IMAGES[1];
-  const secondaryImage = CLINIC_IMAGES.find(img => img.id === 'img6') || CLINIC_IMAGES[0];
   const introVideo = CLINIC_VIDEOS.find(v => v.id === 'vid1') || CLINIC_VIDEOS[0];
   const [videoError, setVideoError] = useState(false);
 
@@ -22,35 +21,18 @@ export const AboutDoctor: React.FC<AboutDoctorProps> = ({ onOpenAppointment, onS
           {/* LEFT: IMAGE GALLERY & INTRODUCTION VIDEO */}
           <div className="lg:col-span-5 relative space-y-4">
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {/* Primary Profile Image */}
-              <div className="relative rounded-2xl overflow-hidden shadow-lg border border-slate-200/90 bg-white p-1.5 group">
-                <img
-                  src={primaryImage.directUrl}
-                  alt={primaryImage.alt}
-                  className="w-full h-64 sm:h-72 object-cover rounded-xl group-hover:scale-102 transition-transform duration-500"
-                  loading="lazy"
-                  width="400"
-                  height="500"
-                />
-                <div className="absolute top-3 left-3 bg-teal-800/90 text-white text-[10px] font-bold px-2.5 py-1 rounded-full backdrop-blur-xs shadow-xs">
-                  Dr. Shakeel Anjum Ramay
-                </div>
-              </div>
-
-              {/* Secondary Consultation Image */}
-              <div className="relative rounded-2xl overflow-hidden shadow-lg border border-slate-200/90 bg-white p-1.5 group">
-                <img
-                  src={secondaryImage.directUrl}
-                  alt={secondaryImage.alt}
-                  className="w-full h-64 sm:h-72 object-cover rounded-xl group-hover:scale-102 transition-transform duration-500"
-                  loading="lazy"
-                  width="400"
-                  height="500"
-                />
-                <div className="absolute top-3 left-3 bg-slate-900/90 text-white text-[10px] font-bold px-2.5 py-1 rounded-full backdrop-blur-xs shadow-xs">
-                  Pediatric Care
-                </div>
+            {/* Primary Profile Image Card */}
+            <div className="relative rounded-2xl overflow-hidden shadow-lg border border-slate-200/90 bg-white p-1.5 group">
+              <img
+                src={primaryImage.directUrl}
+                alt={primaryImage.alt}
+                className="w-full h-72 sm:h-80 object-cover rounded-xl group-hover:scale-[1.01] transition-transform duration-500"
+                loading="lazy"
+                width="600"
+                height="500"
+              />
+              <div className="absolute top-3 left-3 bg-teal-800/90 text-white text-[10px] font-bold px-2.5 py-1 rounded-full backdrop-blur-xs shadow-xs">
+                Dr. Shakeel Anjum Ramay
               </div>
             </div>
 
