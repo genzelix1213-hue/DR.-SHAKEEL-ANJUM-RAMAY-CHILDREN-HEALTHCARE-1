@@ -55,7 +55,10 @@ export default function App() {
         <TrustSection />
 
         {/* ABOUT DOCTOR */}
-        <AboutDoctor onOpenAppointment={() => scrollToAppointment()} />
+        <AboutDoctor
+          onOpenAppointment={() => scrollToAppointment()}
+          onSelectVideo={(video) => setSelectedVideo(video)}
+        />
 
         {/* CHILD HEALTHCARE SERVICES */}
         <ServicesSection onOpenAppointment={(service) => scrollToAppointment(service)} />

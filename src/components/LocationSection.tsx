@@ -12,13 +12,13 @@ export const LocationSection: React.FC = () => {
         {/* HEADER */}
         <div className="text-center max-w-3xl mx-auto mb-12 space-y-3">
           <span className="text-xs font-bold uppercase tracking-wider text-teal-700 bg-teal-100/80 px-3.5 py-1 rounded-full border border-teal-200">
-            Official Practice Location
+            CLINIC LOCATION
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            Visit Our Clinic
+            Al Shifa Children and Maternity Home
           </h2>
-          <p className="text-sm text-slate-600">
-            Conveniently situated at AI Shifa Children and Maternity Home, providing easy access for families in Okara, Pakistan.
+          <p className="text-base font-bold text-teal-800">
+            Gamber, Pakistan
           </p>
         </div>
 
@@ -31,8 +31,9 @@ export const LocationSection: React.FC = () => {
                 <MapPin className="w-6 h-6" />
               </div>
               <div>
-                <h3 className="text-xl font-extrabold text-slate-900">AI Shifa Children and Maternity Home</h3>
-                <p className="text-xs text-teal-700 font-bold uppercase tracking-wide">Okara, Pakistan</p>
+                <span className="text-[10px] font-extrabold text-teal-700 uppercase tracking-wider block">CLINIC LOCATION</span>
+                <h3 className="text-lg font-extrabold text-slate-900 leading-tight">Al Shifa Children and Maternity Home</h3>
+                <p className="text-xs text-slate-600 font-bold uppercase tracking-wide">Gamber, Pakistan</p>
               </div>
             </div>
 
@@ -41,7 +42,7 @@ export const LocationSection: React.FC = () => {
                 <MapPin className="w-4 h-4 text-teal-600 shrink-0 mt-0.5" />
                 <div>
                   <span className="font-bold text-slate-900 block">Address</span>
-                  <span>AI Shifa Children and Maternity Home, Okara, Pakistan</span>
+                  <span>Al Shifa Children and Maternity Home, Gamber, Pakistan</span>
                 </div>
               </div>
 
@@ -81,9 +82,9 @@ export const LocationSection: React.FC = () => {
             {/* Embedded Google Map iframe fallback */}
             <div className="relative h-72 sm:h-auto min-h-[280px] rounded-3xl overflow-hidden border border-slate-200 shadow-md bg-slate-100 flex flex-col justify-between p-6">
               <div className="relative z-10 bg-white/90 backdrop-blur-md p-4 rounded-2xl border border-slate-200 shadow-sm space-y-1">
-                <span className="text-[10px] uppercase font-extrabold tracking-wider text-teal-700">Google Maps Direct Link</span>
-                <h4 className="text-sm font-bold text-slate-900">AI Shifa Children & Maternity Home</h4>
-                <p className="text-xs text-slate-600">Click below to launch turn-by-turn navigation to AI Shifa Children and Maternity Home, Okara on Google Maps.</p>
+                <span className="text-[10px] uppercase font-extrabold tracking-wider text-teal-700">Google Maps Navigation</span>
+                <h4 className="text-sm font-bold text-slate-900">Al Shifa Children & Maternity Home</h4>
+                <p className="text-xs text-slate-600">Click below to launch turn-by-turn navigation to Al Shifa Children and Maternity Home, Gamber on Google Maps.</p>
               </div>
 
               <div className="relative z-10 pt-4">

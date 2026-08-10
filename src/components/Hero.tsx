@@ -34,7 +34,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAppointment }) => {
 
             {/* SUPPORTING TEXT */}
             <p className="text-base sm:text-lg text-slate-700 leading-relaxed max-w-2xl font-normal">
-              Experienced healthcare for children, with compassionate guidance for parents and families in Okara, Pakistan.
+              Experienced healthcare for children, with compassionate guidance for parents and families in Gamber, Pakistan.
             </p>
 
             {/* DOCTOR CREDENTIALS CARD IN HERO */}
@@ -92,7 +92,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAppointment }) => {
             <div className="pt-4 flex flex-wrap items-center gap-6 text-xs text-slate-600 font-medium">
               <div className="flex items-center space-x-1.5">
                 <ShieldCheck className="w-4 h-4 text-teal-600" />
-                <span>AI Shifa Children & Maternity Home, Okara</span>
+                <span>Al Shifa Children & Maternity Home, Gamber</span>
               </div>
               <div className="flex items-center space-x-1.5">
                 <ShieldCheck className="w-4 h-4 text-teal-600" />
@@ -114,24 +114,25 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAppointment }) => {
               <div className="absolute -inset-2 bg-gradient-to-r from-teal-500 to-sky-500 rounded-3xl blur-lg opacity-25 transform rotate-1"></div>
 
               {/* Main Image Container */}
-              <div className="relative bg-white p-2.5 rounded-3xl shadow-xl border border-slate-200/90 overflow-hidden">
+              <div className="relative bg-white p-2.5 rounded-3xl shadow-xl border border-slate-200/90 overflow-hidden group">
                 <img
                   src={DOCTOR_PROFILE.heroImage}
-                  alt="Dr. Shakeel Anjum Ramay - Experienced Child Healthcare Doctor in Okara"
-                  className="w-full h-auto object-contain rounded-2xl max-h-[500px] lg:max-h-[560px] shadow-sm mx-auto"
+                  alt="Dr. Shakeel Anjum Ramay - Experienced Child Healthcare Practitioner"
+                  className="w-full h-auto object-contain rounded-2xl max-h-[500px] lg:max-h-[560px] shadow-sm mx-auto transition-all duration-700 ease-out transform group-hover:scale-[1.01]"
                   loading="eager"
                   width="600"
                   height="700"
                 />
 
-                {/* Floating Trust Badge */}
+                {/* Floating Trust / Location Badge */}
                 <div className="absolute bottom-5 left-5 right-5 bg-white/95 backdrop-blur-md p-3.5 rounded-2xl border border-slate-200/80 shadow-md flex items-center space-x-3">
-                  <div className="w-10 h-10 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center shrink-0 font-bold">
+                  <div className="w-10 h-10 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center shrink-0 font-bold text-xs">
                     20+
                   </div>
                   <div>
-                    <div className="text-xs font-bold text-slate-900">Dr. Shakeel Anjum Ramay</div>
-                    <div className="text-[11px] font-medium text-slate-600">AI Shifa Children & Maternity Home, Okara</div>
+                    <div className="text-[10px] font-extrabold uppercase tracking-wider text-teal-700">CLINIC LOCATION</div>
+                    <div className="text-xs font-bold text-slate-900">Al Shifa Children and Maternity Home</div>
+                    <div className="text-[11px] font-medium text-slate-600">Gamber, Pakistan</div>
                   </div>
                 </div>
 

@@ -5,8 +5,8 @@ export const DOCTOR_PROFILE: DoctorProfile = {
   nameUrdu: 'ڈاکٹر شکیل انجم رامے',
   title: 'Experienced Child Healthcare Practitioner',
   experienceYears: 20,
-  location: 'AI Shifa Children and Maternity Home, Okara',
-  experienceSummary: "20+ Years of Experience in Treating Children's Diseases in Okara",
+  location: 'Al Shifa Children and Maternity Home, Gamber, Pakistan',
+  experienceSummary: "20+ Years of Experience in Treating Children's Diseases",
   credentials: [
     'MD (Medicine)',
     'MBBS',
@@ -16,22 +16,22 @@ export const DOCTOR_PROFILE: DoctorProfile = {
   ],
   background: [
     'Member Pakistan Pediatric Association Punjab',
-    'Ex. Deputy District Health Officer Okara',
-    'Ex. General Secretary / Vice President PMA Okara'
+    'Ex. Deputy District Health Officer',
+    'Ex. General Secretary / Vice President PMA'
   ],
   phone: '+92 344 3335333',
   whatsapp: '+92 344 3335333',
   callUrl: 'tel:+923443335333',
   whatsappUrl: 'https://wa.me/923443335333?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Shakeel%20Anjum%20Ramay.',
-  googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=AI+Shifa+Children+and+Maternity+Home%2C+Okara%2C+Pakistan&utm_source=chatgpt.com',
-  heroImage: 'https://i.ibb.co/5WBTR0WZ/Chat-GPT-Image-Aug-9-2026-10-20-07-PM.png'
+  googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=Al+Shifa+Children+and+Maternity+Home%2C+Gamber%2C+Pakistan&utm_source=chatgpt.com',
+  heroImage: 'https://i.ibb.co/HLTg7YY6/Whats-App-Image-2026-08-10-at-7-40-21-AM.jpg'
 };
 
 export const CLINIC_IMAGES: ImageItem[] = [
   {
     id: 'hero',
-    pageUrl: 'https://ibb.co/Y7p2LC7g',
-    directUrl: 'https://i.ibb.co/5WBTR0WZ/Chat-GPT-Image-Aug-9-2026-10-20-07-PM.png',
+    pageUrl: 'https://ibb.co/kV2cK00j',
+    directUrl: 'https://i.ibb.co/HLTg7YY6/Whats-App-Image-2026-08-10-at-7-40-21-AM.jpg',
     alt: 'Dr. Shakeel Anjum Ramay - Experienced Child Healthcare Practitioner',
     title: 'Dr. Shakeel Anjum Ramay',
     category: 'about'
@@ -129,12 +129,12 @@ export const CLINIC_IMAGES: ImageItem[] = [
 export const CLINIC_VIDEOS: VideoItem[] = [
   {
     id: 'vid1',
-    streamableId: 'v9uwmn',
-    title: 'Welcome Message & Doctor Introduction',
-    description: 'Dr. Shakeel Anjum Ramay introduces his child healthcare practice at AI Shifa Children and Maternity Home in Okara, highlighting over 20 years of dedicated experience.',
-    embedUrl: 'https://streamable.com/e/v9uwmn',
-    pageUrl: 'https://streamable.com/v9uwmn',
-    thumbnailUrl: 'https://cdn-cf-east.streamable.com/image/v9uwmn.jpg',
+    streamableId: '9z370l',
+    title: 'Dr. Shakeel Anjum Ramay - Practice Introduction',
+    description: '',
+    embedUrl: 'https://streamable.com/e/9z370l',
+    pageUrl: 'https://streamable.com/9z370l',
+    thumbnailUrl: 'https://cdn-cf-east.streamable.com/image/9z370l.jpg',
     category: 'Doctor Introduction',
     featured: true
   },
@@ -142,7 +142,7 @@ export const CLINIC_VIDEOS: VideoItem[] = [
     id: 'vid2',
     streamableId: '5s7c56',
     title: 'Comprehensive Child Health Assessment',
-    description: 'An overview of routine pediatric health checks, fever evaluation, and childhood illness monitoring at AI Shifa Children and Maternity Home, Okara.',
+    description: '',
     embedUrl: 'https://streamable.com/e/5s7c56',
     pageUrl: 'https://streamable.com/5s7c56',
     thumbnailUrl: 'https://cdn-cf-east.streamable.com/image/5s7c56.jpg',
@@ -152,7 +152,7 @@ export const CLINIC_VIDEOS: VideoItem[] = [
     id: 'vid3',
     streamableId: 'cg5zed',
     title: 'AI Shifa Children & Maternity Home Atmosphere',
-    description: 'A walkthrough showing the welcoming, clean, and child-friendly clinical environment designed for young patients and their families.',
+    description: '',
     embedUrl: 'https://streamable.com/e/cg5zed',
     pageUrl: 'https://streamable.com/cg5zed',
     thumbnailUrl: 'https://cdn-cf-east.streamable.com/image/cg5zed.jpg',
@@ -162,7 +162,7 @@ export const CLINIC_VIDEOS: VideoItem[] = [
     id: 'vid4',
     streamableId: '0lor93',
     title: 'Gentle Pediatric Physical Examination',
-    description: 'Demonstrating patient-centered, friendly diagnostic routines for infants and children experiencing fever, cough, or stomach illness.',
+    description: '',
     embedUrl: 'https://streamable.com/e/0lor93',
     pageUrl: 'https://streamable.com/0lor93',
     thumbnailUrl: 'https://cdn-cf-east.streamable.com/image/0lor93.jpg',
@@ -172,7 +172,7 @@ export const CLINIC_VIDEOS: VideoItem[] = [
     id: 'vid5',
     streamableId: '43omyz',
     title: 'Managing Seasonal Childhood Illnesses & Coughs',
-    description: 'Dr. Shakeel Anjum Ramay shares vital advice on managing respiratory infections, seasonal flu, and respiratory complaints in children.',
+    description: '',
     embedUrl: 'https://streamable.com/e/43omyz',
     pageUrl: 'https://streamable.com/43omyz',
     thumbnailUrl: 'https://cdn-cf-east.streamable.com/image/43omyz.jpg',
@@ -180,19 +180,19 @@ export const CLINIC_VIDEOS: VideoItem[] = [
   },
   {
     id: 'vid6',
-    streamableId: '0grwi4',
-    title: 'Child Growth & Preventive Healthcare Tips',
-    description: 'Essential guidance for parents on monitoring developmental milestones, proper nutrition, and hygiene routines for healthy growth.',
-    embedUrl: 'https://streamable.com/e/0grwi4',
-    pageUrl: 'https://streamable.com/0grwi4',
-    thumbnailUrl: 'https://cdn-cf-east.streamable.com/image/0grwi4.jpg',
-    category: 'Preventive Health'
+    streamableId: 'eupram',
+    title: 'Children Healthcare Tips & Parent Guidance',
+    description: '',
+    embedUrl: 'https://streamable.com/e/eupram',
+    pageUrl: 'https://streamable.com/eupram',
+    thumbnailUrl: 'https://cdn-cf-east.streamable.com/image/eupram.jpg',
+    category: 'Healthcare Tips'
   },
   {
     id: 'vid7',
     streamableId: 'q7g5u1',
     title: 'Parent Guidance & Health Consultation Session',
-    description: 'How Dr. Shakeel Anjum Ramay counsels parents during consultations, providing clear instructions and empathetic support.',
+    description: '',
     embedUrl: 'https://streamable.com/e/q7g5u1',
     pageUrl: 'https://streamable.com/q7g5u1',
     thumbnailUrl: 'https://cdn-cf-east.streamable.com/image/q7g5u1.jpg',

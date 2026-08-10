@@ -57,13 +57,15 @@ export const VideoGallerySection: React.FC<VideoGallerySectionProps> = ({ onSele
                 </div>
 
                 {/* Content */}
-                <div className="p-5 space-y-2">
+                <div className="p-5">
                   <h3 className="text-base font-bold text-slate-900 line-clamp-2 group-hover:text-teal-700 transition-colors">
                     {video.title}
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed line-clamp-3">
-                    {video.description}
-                  </p>
+                  {video.description && (
+                    <p className="mt-2 text-xs text-slate-600 leading-relaxed line-clamp-3">
+                      {video.description}
+                    </p>
+                  )}
                 </div>
               </div>
 
